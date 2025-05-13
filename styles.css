@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* HEADER */
+header {
+  background: #1e1e2f;
+  color: white;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #2c3a8a;
+}
+
+/* SECTIONS */
+section {
+  padding: 60px 20px;
+  text-align: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+#home {
+  background: linear-gradient(135deg, #dddddd, #ffffff);
+  border-bottom: 2px solid rgb(54, 54, 54);
+  border-left: 2px solid rgb(54, 54, 54);
+  border-right: 2px solid rgb(54, 54, 54);
+}
+
+#home h1 {
+  font-size: 2.5rem;
+  color: #1b1b1b;
+}
+
+#home p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+#sobre, #projetos {
+  background: #fff;
+}
+
+#sobre h2, #projetos h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+  
+}
+
+#sobri{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 15px;
+}
+
+/* PROJETOS */
+#projetos ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#contato ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#projetos li {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+.imagem-projetos {
+  width: 90%;
+  max-width: 700px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* FOOTER */
+footer {
+  background: #1e1e2f;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
+
+.links-sites {
+  color: white;
+  background-color: rgb(48, 48, 48);
+  text-decoration: none;
+  padding: 2px;
+  border-radius: 2px;
+}
+
+.icones{
+    width: 50px;
+    height: 50px;
+}
+
+.contatos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#contates{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#eu{
+  border-radius: 20%;
+  width: 200px;
+  height: auto;
+}
